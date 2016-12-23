@@ -15,7 +15,7 @@ exports.handler = function (event, context) {
 
 
      
-         if (event.session.application.applicationId !== "amzn1.ask.skill.27c351c6-944c-4418-919e-6da27ac0cd51") {
+         if (event.session.application.applicationId !== "amzn1.ask.skill.ebc791c6-9d78-4735-8141-abf20788396a") {
             context.fail("Invalid Application ID");
          }
 
