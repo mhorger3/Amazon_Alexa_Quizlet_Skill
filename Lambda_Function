@@ -1,4 +1,4 @@
-// Open Study
+// Open Study - Chemistry
 // Matthew Horger - Willaim McKeown - Ruth Thomas
 // Drexel University - Freshman - Class of 2021
 // Developed by Matthew Horger - BS/MS Computer Science 2021
@@ -143,9 +143,9 @@ function handleGetHelpRequest(intent, session, callback) {
     // Set a flag to track that we're in the Help state.
     session.attributes.userPromptedToContinue = true;
 
-    var speechOutput = "I will tell you each term and definition in this quizlet set. All you have to do is say: " + "Alexa "  + " study start",
-        repromptText = "Say 'Alexa, study start' ";
-        var shouldEndSession = false;
+    var speechOutput = "I will tell you each term and definition in this quizlet set. All you have to do is say: " + "Alexa "  + " launch study chemistry",
+        repromptText = "Say 'Alexa, launch study chemistry' ";
+        var shouldEndSession = true;
     callback(session.attributes,
         buildSpeechletResponseWithoutCard(speechOutput, repromptText, shouldEndSession));
 }
