@@ -25,9 +25,7 @@ In order to setup this skill, please visit the Amazon Alexa App Store to add it 
 Intent Schema 
 ---
 "Alexa launch study chemistry"
----
 "help me with chemistry"
----
 
 ---
 
