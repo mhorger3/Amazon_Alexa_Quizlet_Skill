@@ -11,6 +11,7 @@ Team members:
 Matthew Horger,
 William McKeon,
 Ruth Thomas
+
 ---
 
 ## Setup
@@ -22,6 +23,10 @@ In order to setup this skill, please visit the Amazon Alexa App Store to add it 
 ## Usage
 
 Intent Schema 
+"Alexa launch study chemistry"
+---
+"help me with chemistry"
+---
 
 ---
 
@@ -29,4 +34,5 @@ Intent Schema
 
 https://www.amazon.com/gp/product/B01N2WOVAN?ie=UTF8&ref-suffix=ss_rw
 https://www.amazon.com/gp/product/B073WNY41L?ie=UTF8&ref-suffix=ss_rw
+
 ---
